@@ -1575,7 +1575,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 72%;
+    width: 100%;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -1913,7 +1913,6 @@ body {
 .nextSlide,
 .lastSlide {
 	position: absolute;
-    height: 100%;
 	top: 50%;
 	transform: translateY(-50%); /* Center vertically */
 	background: none;
@@ -1925,6 +1924,8 @@ body {
 	border: none;
 	transition: background 200ms;
 	z-index: 9999;
+    padding: 10px;
+    border-radius: 10%;
 }
 .nextSlide:hover,
 .lastSlide:hover {
@@ -1960,13 +1961,26 @@ body {
 
 .slidevideo{
     width: 90%;
-    height: auto;
+    height: 70%;
     padding-left: 4%;
     padding-top: 2%;
+    border: none;
 }
 
 .descricao_slideshow{
     font-family: normal;
     font-size: 13px;
     padding-right: 5%;
+}
+
+.img_sobre_mim{
+    width: 50%;
+}
+
+.sobre_mim_text{
+    width: 40%;
+    height: 300px;
+    font-size: 19px;
+    padding-top: 69px;
+    padding-left: 50px;
 }
