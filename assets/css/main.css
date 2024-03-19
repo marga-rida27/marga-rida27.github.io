@@ -1246,8 +1246,9 @@ body {
 
 .about--banner img {
     position: absolute;
-    bottom: -90px;
-    right: -12px
+    bottom: -30px;
+    right: -12px;
+    opacity: 30%;
 }
 
 .about--options {
@@ -1981,7 +1982,7 @@ body {
 }
 
 .sobre_mim_text{
-    width: 40%;
+    width: 80%;
     height: 300px;
     font-size: 19px;
     padding-top: 69px;
