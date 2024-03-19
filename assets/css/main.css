@@ -1895,7 +1895,6 @@ body {
 .slideshow {
 	position: absolute;
 	height: 75%;
-	width: 100%;
 	box-sizing: border-box;
 	border: 3px solid #f5f5f5;
 	overflow: hidden;
@@ -1917,7 +1916,7 @@ body {
 .nextSlide,
 .lastSlide {
 	position: absolute;
-	top: 50%;
+	top: 5%;
 	transform: translateY(-50%); /* Center vertically */
 	background: none;
 	font-size: 3em;
@@ -1946,7 +1945,8 @@ body {
 /* Random Pallette: ["#CC90C6","#8DCFF9","#4EF0BA","#0CAE78"] */
 
 .slide p {
-	padding-left: 5%;
+	padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* Repeating color scheme */
@@ -1964,9 +1964,17 @@ body {
 } */
 
 .slidevideo{
-    width: 90%;
-    height: 70%;
-    padding-left: 4%;
+    width: 80%;
+    height: 60%;
+    padding-left: 10%;
+    padding-top: 2%;
+    border: none;
+}
+
+.slidevideo2{
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
     padding-top: 2%;
     border: none;
 }
@@ -1990,6 +1998,6 @@ body {
 }
 
 .img_pedras{
-    height: 75%;
-    padding-left: 30%;
+    height: 56%;
+    padding-left: 10%;
 }
