@@ -716,7 +716,8 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin: 0 auto
+    margin: 0 auto;
+    margin-top: 60px;
 }
 
 @media (max-width: 1180px) {
@@ -764,7 +765,8 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     background-color: transparent;
-    border: none
+    border: none;
+    margin-top: 40px;
 }
 
 .intro--banner button .btn-background {
@@ -811,7 +813,8 @@ body {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    list-style: none
+    list-style: none;
+    margin-top: 20px;
 }
 
 .intro--options>a {
