@@ -1165,7 +1165,8 @@ body {
 
 .about--banner {
     position: relative;
-    height: 475px
+    display: inline-block;
+    height: 475px;
 }
 
 .about--banner::before {
@@ -1248,7 +1249,6 @@ body {
     position: absolute;
     bottom: -30px;
     right: -12px;
-    opacity: 30%;
 }
 
 .about--options {
@@ -1992,10 +1992,14 @@ body {
 
 .sobre_mim_text{
     width: 80%;
-    height: 300px;
-    font-size: 19px;
-    padding-top: 69px;
-    padding-left: 50px;
+    font-size: 17px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    bottom: 17%;
+    background-color: #ffffff99;
 }
 
 .img_pedras{
